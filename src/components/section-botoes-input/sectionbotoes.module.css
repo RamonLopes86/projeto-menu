@@ -1,0 +1,134 @@
+.boxPai{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px 0px;
+    
+    /* max-width: 1400px;
+    margin: 0px auto; */
+}
+
+.boxPai button {
+
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    
+    padding: 5px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    flex: auto;
+}
+
+.boxPai button:hover{
+
+    background-color: #daa520;
+    color: white;
+}
+
+.boxPai button .Img{
+
+    width: 20px;
+    height: 100%;
+}
+
+.boxInput{
+
+    width: 100%;
+    padding: 0px 5px;
+    position: relative;
+    
+}
+
+.boxInput input{
+
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    outline: 1px solid gray;
+    padding: 7px 0px;
+    text-indent: 40px;
+    font-weight: bold;
+    color: gray;
+    
+    
+}
+
+.boxInput input:hover{
+
+    outline: 2px solid #daa520;
+}
+   
+    
+
+.boxInput input::placeholder{
+
+    text-indent: 40px;
+    font-weight: bold;
+    
+}
+
+.boxInput input:focus{
+
+   outline: 1px solid gray;
+}
+
+.boxInput .imgLupa{
+
+    width: 28px;
+    height: fit-content;
+    position: absolute;
+    left:10px;
+    top: 3px;
+
+
+}
+
+/* UseState */
+
+.CorInicial{
+
+    background-color: #e7dede79;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:643px){
+
+    .boxPai{
+
+        flex-wrap: wrap;
+        padding: 40px 5px;
+    }
+
+    .boxInput input{
+
+        padding:5px;
+    }
+
+   
+
+
+}
+
+@media screen and (max-width:409px){
+
+    .boxInput input::placeholder{
+
+        font-size: 0.6rem;
+    }
+
+    
+}

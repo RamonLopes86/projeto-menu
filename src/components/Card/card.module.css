@@ -1,0 +1,75 @@
+.Moldura {
+
+    width: 280px;
+    height: 500px;
+    border: 1px solid #daa520;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 4px;
+    gap: 10px;
+    flex: auto;
+    position: relative;
+
+}
+
+
+
+.Moldura .imgMoldura {
+
+    width: 100%;
+    height: 250px;
+   object-fit: cover;
+
+}
+
+
+
+
+
+
+.Moldura .boxImg {
+
+    width: 100%;
+    height: 250px;
+    
+}
+
+
+
+
+
+
+
+.Moldura h1 {
+
+    padding: 0px 5px;
+}
+
+.Moldura span {
+
+    padding: 0px 5px;
+}
+
+.Moldura .spanCategoria {
+
+    color: #daa520;
+}
+
+.Moldura p {
+
+    padding: 0px 5px;
+    text-align: left;
+
+}
+
+.Moldura .spanPreco {
+
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+}
